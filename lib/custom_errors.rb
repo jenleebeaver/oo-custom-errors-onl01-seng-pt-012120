@@ -13,7 +13,8 @@ class Person
 end
 
 beyonce = Person.new("Beyonce")
-beyonce.get_married("Jay-Z")
+beyonce.get_married("Jay-Z") #would recieve a no method error
+#of anything that is not a person class
 puts beyonce.name
 
 
