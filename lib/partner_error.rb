@@ -1,2 +1,4 @@
+
+
 class PartnerError < StandardError
 end
