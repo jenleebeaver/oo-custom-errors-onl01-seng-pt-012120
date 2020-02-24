@@ -11,6 +11,7 @@ class Person
       begin
         raise PartnerError
       rescue PartnerError => error
+        puts error.message 
       raise PartnerError
     else
       person.partner = self
